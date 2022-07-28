@@ -22,3 +22,27 @@ __NEEDED TO BE DONE__
 - fix else/elifs where needed
 - find & insert animations
 
+
+
+
+COMMiTs [7/28 - 5:10PM]
+- added collections.py page for refference 
+- added and started build on "SlxRmeV0.0.2.py" & "SLACHE Bank.py"
+- added zelta folder/file
+
+
+
+NEEDs TO BE DONE
+
+("SLxRme")
+- fix indentaion & code
+- fix (/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin/apt) not executable error
+- fix asyncore problem
+-delete, reinstall & update python
+- finish setup and plan/build process
+- set goals & targets
+
+("SLACHE BANK")
+- finish setup and build/plan process
+- watch "Banking System" video by Johan Godinho
+- set goals & targets
