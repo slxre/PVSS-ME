@@ -2,7 +2,7 @@ import time
 
 
 # QD
-user = 'member', 'Agent', 'SLxRE'
+user = 'member'
 MAC = 'gnrlaccess', 'Xi004', 'SLxREx'
 UEC = 'egenrlacces', '400iX', 'SLxRExx'
 exitt = 'E'
@@ -11,14 +11,16 @@ AAC = 'SLxRExx'
 AEC = 'xxSLxRE'
 inputt2 = 'r'
 
+whois = input('Who Are You?: ')
+
 
 print("WELCOME 2 SLxRPvSS")
 time.sleep(2.5)
-print("Who Are You?: ")
+print('Welcome', whois)
 
 while(True):
     continue 
-if user == "member".lower():
+if user == input('member').lower():
     print(input("Enter Your MAC to Continue: "))
     if MAC == 'gnrlaccess':
         print("Welcome, Peasant")
@@ -92,4 +94,11 @@ mact1 = True
 veriT= True
 veriF = False
 
+imq = True
+mi = 'member'
+msa1 = print()
+
+
+
+msa1 = input('member').lower() == imq
 
