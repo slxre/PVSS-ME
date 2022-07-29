@@ -23,17 +23,21 @@ __NEEDED TO BE DONE__
 - find & insert animations
 
 
+____
 
 
-COMMiTs [7/28 - 5:10PM]
+__COMMiTs [7/28 - 5:10PM]__
+----
 - added collections.py page for refference 
 - added and started build on "SlxRmeV0.0.2.py" & "SLACHE Bank.py"
 - added zelta folder/file
 
 
+____
 
-NEEDs TO BE DONE
 
+__NEEDs TO BE DONE__
+----
 ("SLxRme")
 - fix indentaion & code
 - fix (/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin/apt) not executable error
@@ -46,3 +50,6 @@ NEEDs TO BE DONE
 - finish setup and build/plan process
 - watch "Banking System" video by Johan Godinho
 - set goals & targets
+
+____
+
