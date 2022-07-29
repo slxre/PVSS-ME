@@ -42,28 +42,28 @@ def login(username, password):
 
 ##################################################################################################
 
-    print("WELCOME 2 SLxR.me. A Open Source Bank For SLxRIVNs.")
-    time.sleep(2.5)
+print("WELCOME 2 SLxR.me. A Open Source Bank For SLxRIVNs.")
+time.sleep(2.5)
 
-    def loadbar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+def loadbar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
         percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
         filledLength = int(length * iteration // total)
         bar = fill * filledLength + '-' * (length - filledLength)
         print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\r')
         # Print New Line on Complete
-        if iteration == total:
-            print("Enter 00 to Return M")
-            items = list(range(0, 50))
-            l = len(items)
+if iteration == total:
+        print("Enter 00 to Return M")
+        
+        items = list(range(0, 50))
+        l = len(items)
 
-            loadbar(0, l, prefix='Progress:', suffix='Complete', length=l)
-            for i, item in enumerate(items):
-                sleep(0.1)
-                loadbar(i + 1, l, prefix='Progress:', suffix='Complete', length=l)
+        loadbar(0, l, prefix='Progress:', suffix='Complete', length=l)
+        for i, item in enumerate(items):
+            sleep(0.1)
+            loadbar(i + 1, l, prefix='Progress:', suffix='Complete', length=l)
    
-def main():
                 
-    if user == 'M'.lower():
+if user == 'M'.lower():
             print("Enter 0 to Create an Account.")
             print("Enter 1 to Deposit Money.")
             print("Enter 2 to Withdraw Money.")
@@ -80,7 +80,7 @@ def main():
 
 ##################################################################
 
-    if user == '0':
+if user == '0':
             username = input("Enter Your Username: ")
             password = input("Enter Your Password: ")
             accounts[username] = [password, 0]
@@ -102,7 +102,7 @@ def main():
 
 ##################################################################
 
-    elif user == '1':
+elif user == '1':
         time.sleep(2)
         print("Welcome to the SLxREBank.")
         time.sleep(2)
@@ -119,7 +119,7 @@ def main():
 
 ##################################################################
 
-    elif user == '2':
+elif user == '2':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -132,7 +132,7 @@ def main():
 
 ##################################################################
 
-    elif user == '3':
+elif user == '3':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -142,7 +142,7 @@ def main():
 
 ##################################################################
 
-    elif user == '4':
+elif user == '4':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -152,14 +152,14 @@ def main():
 
 ##################################################################
 
-    elif user == '5':
+elif user == '5':
         print("Exiting")
         print("")
         user = input("Enter Your Choice: ")
 
 ##################################################################
 
-    elif user == '6':
+elif user == '6':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -171,7 +171,7 @@ def main():
 
 ##################################################################
 
-    elif user == '7':
+elif user == '7':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -184,7 +184,7 @@ def main():
 
 ##################################################################
 
-    elif user == '8':
+elif user == '8':
         username = input("Enter Your Username: ")
         password = input("Enter Your Password: ")
         if login(username, password):
@@ -195,7 +195,7 @@ def main():
 
 ##################################################################
 
-    elif user == '00':
+elif user == '00':
         print("Welcome to the Main Menu")
         user = input(" Enter a Menu Option: ")
         print("Enter 0 to Create an Account.")
@@ -214,7 +214,7 @@ def main():
 
 ##################################################################
 
-    elif user == '090':
+elif user == '090':
         print("Welcome to the Admin Menu")
         user = input("Log into The Admin Account : ")
         if user == 'admin':
@@ -233,7 +233,7 @@ def main():
 
 ####################################################################################################################################
 
-    elif user == '080':
+elif user == '080':
         print("Welcome to the Help Menu")
         user = input("Send Help Email to SLxRE?: ")
         if user == 'y':
@@ -300,19 +300,18 @@ def main():
                     sleep(1)
                     print("070 For Credits.")
 
-    Repeat = input("Enter 00 to Return Menu: ") 
-    if Repeat == '00':
-        main()
+Repeat = input("Enter 00 to Return Menu: ") 
+if Repeat == '00':
     main()
+main()
 ####################################################################################################################################
 
-    if user == 'q':
+if user == 'q':
         print("Thank You For Using SLxRme")
         quit()
         user = 'q'
-    else:
+else:
         print("Invalid Input, Read Directions Carefully Then Try Again.")
         main()
-    main()
+main()
 
-        
